@@ -9,7 +9,8 @@
 .top {
   height: 60px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 15px;
   align-items: center;
   border-bottom: 1px solid #ccc;
 }
@@ -59,4 +60,50 @@ figcaption {
 
 figcaption > span {
   font-size: 13px;
+}
+
+article {
+  width: 50%;
+  margin: 0 auto;
+  color: #333;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+article > h4 {
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social > p {
+  font-size: 14px;
+}
+
+.icons > li {
+  display: inline-flex;
+  margin-left: 5px;
+
+}
+
+.icons > li > a {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-color: #eee;
+  border-radius: 50%;
+  color: black;
+  padding-left: 7px;
+  font-size: 13px;
+  border: 1px solid #eee;
+}
+
+.icons > a:hover {
+  border: 1px solid #ccc;
+  background: white;
 }
