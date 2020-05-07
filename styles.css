@@ -32,3 +32,31 @@
   font-size: 14px;
   border-radius: 3px;
 }
+
+.feature-image {
+  width: 70%;
+  margin: 70px auto;
+}
+
+.feature-image > h1 {
+  
+  font-style: italic;
+  line-height: 50px;
+  width: 80%;
+  margin: 25px auto;
+}
+
+.feature-image > figure > img {
+  width: 100%;
+}
+
+figcaption {
+  color: #666;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  margin-right: 25%;
+}
+
+figcaption > span {
+  font-size: 13px;
+}
