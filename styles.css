@@ -40,7 +40,6 @@
 }
 
 .feature-image > h1 {
-  
   font-style: italic;
   line-height: 50px;
   width: 80%;
@@ -53,7 +52,7 @@
 
 figcaption {
   color: #666;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   margin-right: 25%;
 }
@@ -88,7 +87,6 @@ article > h4 {
 .icons > li {
   display: inline-flex;
   margin-left: 5px;
-
 }
 
 .icons > li > a {
@@ -106,4 +104,95 @@ article > h4 {
 .icons > a:hover {
   border: 1px solid #ccc;
   background: white;
+}
+
+.theory {
+  width: 65%;
+  margin: 40px auto;
+}
+
+.theory h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.theory p {
+  color: #333;
+}
+
+.article-thumbnail {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+div[class^="img-thumb"] {
+  width: 200px;
+  height: 140px;
+  background-color: #333;
+  overflow: hidden;
+  position: relative;
+}
+
+/* .img-thumb-1 {
+  background-image: url(images/inflation-720.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+} */
+.img-thumb-1 img {
+  position: absolute;
+  width: 800px;
+  left: 0;
+  top: 0;
+}
+
+.img-thumb-2 img {
+  position: absolute;
+  width: 800px;
+  left: -200px;
+  top: 0;
+}
+
+.img-thumb-3 img {
+  position: absolute;
+  width: 800px;
+  left: -400px;
+  top: 0;
+}
+
+.img-thumb-4 img {
+  position: absolute;
+  width: 800px;
+  right: 0;
+  top: 0;
+}
+
+.img-thumb-5 img {
+  position: absolute;
+  width: 800px;
+  left: 0;
+  top: -350px;
+}
+
+.img-thumb-6 img {
+  position: absolute;
+  width: 800px;
+  left: -200px;
+  top: -350px;
+}
+
+.img-thumb-7 img {
+  position: absolute;
+  width: 800px;
+  left: -400px;
+  top: -350px;
+}
+
+.img-thumb-8 img {
+  position: absolute;
+  width: 800px;
+  right: 0;
+  top: -350px;
 }
