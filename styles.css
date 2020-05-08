@@ -62,14 +62,18 @@
   margin: 70px auto;
 }
 
-.feature-image > h1 {
+.feature-image h1 {
   font-style: italic;
   line-height: 50px;
   width: 80%;
   margin: 25px auto;
 }
 
-.feature-image > figure > img {
+article img {
+  width: 100%;
+}
+
+.feature-image figure img {
   width: 100%;
 }
 
@@ -98,24 +102,20 @@ article {
   font-size: 18px;
 }
 
-article img {
-  width: 100%;
-}
-
-article > h4 {
+article h4 {
   margin: 15px 0;
   font-size: 14px;
 }
 
-article > h3 {
+article h3 {
   margin: 10px 0;
 }
 
-article > p {
+article p {
   margin: 15px 0;
 }
 
-article > p > a {
+article p a {
   color: #32689b;
   text-decoration: underline;
 }
@@ -130,16 +130,16 @@ article > p > a {
   align-items: center;
 }
 
-.social > p {
+.social p {
   font-size: 14px;
 }
 
-.icons > li {
+.icons li {
   display: inline-flex;
   margin-left: 5px;
 }
 
-.icons > li > a {
+.icons li a {
   display: inline-block;
   width: 26px;
   height: 26px;
@@ -151,13 +151,13 @@ article > p > a {
   border: 1px solid #eee;
 }
 
-.icons > li:nth-child(n + 5) > a {
+.icons li:nth-child(n + 5) a {
   border: none;
   background-color: white;
   font-size: 20px;
 }
 
-.icons > a:hover {
+.icons a:hover {
   border: 1px solid #ccc;
   background: white;
 }
@@ -345,15 +345,19 @@ div[class^="img-thumb"] img {
   aside {
     display: none;
   }
+
   .main {
     width: 95%;
   }
+
   .show_user {
     display: inline-block;
   }
+
   .top__right .btn {
     display: none;
   }
+
   .editor-pick {
     margin-top: 10px;
   }
@@ -369,6 +373,7 @@ div[class^="img-thumb"] img {
   .article-thumbnail {
     grid-template-columns: 1fr;
   }
+
   .article-preview__card {
     grid-template-columns: 1fr;
   }
@@ -379,6 +384,7 @@ div[class^="img-thumb"] img {
 }
 
 /* ASIDE STYLES */
+
 aside {
   width: 30%;
   float: right;
@@ -393,7 +399,6 @@ aside {
 
 .aside__list li a {
   display: block;
-
   font-size: 18px;
   width: 80%;
 }
