@@ -260,7 +260,7 @@ main {
 }
 
 .editor-pick {
-  margin-top: -50px;
+  margin-top: -100px;
 }
 
 /* ASIDE STYLES */
@@ -294,4 +294,66 @@ aside {
 
 .link:hover {
   color: #888;
+}
+
+.footer-columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.column li a {
+  color: #000;
+}
+
+
+footer {
+  width: 90%;
+  margin: 0 auto;
+  border-top: 4px double #ccc;
+  padding-top: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.column:last-child {
+  border-left: 1px solid #ccc;
+  padding-left: 15px;
+}
+
+.column:last-child li:nth-child(7) {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.column:last-child li:nth-child(8) {
+  padding-top: 5px;
+}
+
+.column:last-child li:nth-child(n+5) {
+  font-size: 10.5px;
+}
+
+.column:last-child li:nth-child(-n+4) {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.column:last-child li:nth-child(4) {
+  margin-bottom: 10px;
+}
+
+.footer__svg {
+  width: 12px;
+  margin-right: 7px;
+}
+
+small a {
+  font-size: 10.5px;
+  color: rgb(86, 123, 149);
 }
