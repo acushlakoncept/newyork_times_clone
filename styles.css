@@ -397,6 +397,10 @@ aside {
   color: #000;
 }
 
+.column li a:hover {
+  text-decoration: underline;
+}
+
 footer {
   width: 90%;
   margin: 0 auto;
@@ -442,4 +446,26 @@ footer {
 small a {
   font-size: 10.5px;
   color: rgb(86, 123, 149);
+}
+
+.footer-copyright {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer-copyright ul li {
+  display: inline-flex;
+  margin-left: 10px;
+}
+
+.footer-copyright ul li a {
+  font-size: 10px;
+  color: #666;
+}
+
+.footer-copyright ul li a:hover {
+  text-decoration: underline;
 }
