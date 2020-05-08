@@ -15,23 +15,14 @@
   border-bottom: 1px solid #ccc;
 }
 
-small a {
-  font-size: 10.5px;
-  color: rgb(86, 123, 149);
-}
-
 article p a {
   color: #32689b;
   text-decoration: underline;
 }
 
-.top__left a {
-  color: #000;
-  margin-right: 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
+.article-footer > p > a {
+  color: #666;
+  text-decoration: underline;
 }
 
 .icons li a {
@@ -46,33 +37,9 @@ article p a {
   border: 1px solid #eee;
 }
 
-.article-footer p a {
-  color: #666;
-  text-decoration: underline;
-}
-
-.aside__list li a {
-  display: block;
-  font-size: 18px;
-  width: 80%;
-}
-
-.column li a {
-  color: #000;
-}
-
-.footer-copyright ul li a {
-  font-size: 10px;
-  color: #666;
-}
-
 .icons a:hover {
   border: 1px solid #ccc;
   background: white;
-}
-
-.top__left a:hover {
-  text-decoration: underline;
 }
 
 .icons li:nth-child(n + 5) a {
@@ -93,7 +60,7 @@ article p a {
   border-radius: 3px;
   border: none;
   font-weight: 800;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "sans serif";
   text-transform: uppercase;
 }
 
@@ -420,6 +387,12 @@ aside {
   line-height: 24px;
 }
 
+.aside__list li a {
+  display: block;
+  font-size: 18px;
+  width: 80%;
+}
+
 .clear {
   clear: both;
 }
@@ -443,6 +416,10 @@ aside {
   line-height: 25px;
 }
 
+.column li a {
+  color: #000;
+}
+
 .column li a:hover {
   text-decoration: underline;
 }
@@ -460,11 +437,6 @@ footer {
 .column:last-child {
   border-left: 1px solid #ccc;
   padding-left: 15px;
-}
-
-.footer-copyright ul li {
-  display: inline-flex;
-  margin-left: 10px;
 }
 
 .column:last-child li:nth-child(7) {
@@ -495,6 +467,11 @@ footer {
   margin-right: 7px;
 }
 
+small a {
+  font-size: 10.5px;
+  color: rgb(86, 123, 149);
+}
+
 .footer-copyright {
   border-top: 1px solid #ccc;
   padding-top: 10px;
@@ -503,6 +480,29 @@ footer {
   margin-bottom: 50px;
 }
 
+.footer-copyright ul li {
+  display: inline-flex;
+  margin-left: 10px;
+}
+
+.footer-copyright ul li a {
+  font-size: 10px;
+  color: #666;
+}
+
 .footer-copyright ul li a:hover {
+  text-decoration: underline;
+}
+
+.top__left a {
+  color: #000;
+  margin-right: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Roboto", "sans serif";
+}
+
+.top__left a:hover {
   text-decoration: underline;
 }
