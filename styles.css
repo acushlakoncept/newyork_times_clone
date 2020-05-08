@@ -82,8 +82,8 @@ article > p {
   margin: 15px 0;
 }
 
-article > p > a{
-  color: #32689B;
+article > p > a {
+  color: #32689b;
   text-decoration: underline;
 }
 
@@ -217,14 +217,49 @@ div[class^="img-thumb"] img {
 }
 
 .article-preview {
-  width: 90%;
+  width: 85%;
   margin: 60px auto;
 }
 
+main {
+  width: 67%;
+  float: left;
+}
+
+aside {
+  width: 30%;
+  float: right;
+}
+
+.article-preview h3 {
+  border-top: 1px solid #000;
+  padding-top: 25px;
+  margin-bottom: 15px;
+}
+
+.article-preview__card,
 .article-preview__card > figure > img {
   width: 280px;
 }
 
-.article-preview__card {
-  width: 280px;
+.aside__list li {
+  margin-bottom: 13px;
+  border-top: 1px solid #ccc;
+  padding-top: 13px;
+}
+
+.aside__list li a {
+  display: block;
+  color: #000;
+  font-size: 18px;
+  width: 80%;
+  transition: all 0.5s;
+}
+
+.aside__list li a:hover {
+  color: #ccc;
+}
+
+.clear {
+  clear: both;
 }
