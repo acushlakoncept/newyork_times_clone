@@ -215,3 +215,16 @@ div[class^="img-thumb"] img {
   color: #666;
   text-decoration: underline;
 }
+
+.article-preview {
+  width: 90%;
+  margin: 60px auto;
+}
+
+.article-preview__card > figure > img {
+  width: 280px;
+}
+
+.article-preview__card {
+  width: 280px;
+}
