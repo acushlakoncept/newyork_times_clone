@@ -21,6 +21,11 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
+  font-family: 'Roboto', sans serif;
+}
+
+.top__left a:hover {
+  text-decoration: underline;
 }
 
 .logo {
@@ -30,9 +35,13 @@
 .btn {
   color: #fff;
   background: #567b95;
-  padding: 5px 15px;
-  font-size: 14px;
+  padding: 10px 15px;
+  font-size: 12px;
   border-radius: 3px;
+  border: none;
+  font-weight: 800;
+  font-family: 'Roboto', sans serif;
+  text-transform: uppercase;
 }
 
 .show_user {
@@ -64,14 +73,19 @@
   width: 100%;
 }
 
-figcaption {
-  color: #666;
+figcaption, .video-desc {
+  color: #888;
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   margin-right: 25%;
 }
 
-figcaption > span {
+.video-desc {
+  line-height: 18px;
+}
+
+
+figcaption span, .video-desc span{
   font-size: 13px;
 }
 
@@ -105,6 +119,10 @@ article > p > a {
   text-decoration: underline;
 }
 
+.capt {
+  line-height: 20px;
+}
+
 .social {
   display: flex;
   justify-content: space-between;
@@ -130,6 +148,12 @@ article > p > a {
   padding-left: 7px;
   font-size: 13px;
   border: 1px solid #eee;
+}
+
+.icons > li:nth-child(n+5) > a {
+  border: none;
+  background-color: white;
+  font-size: 20px;
 }
 
 .icons > a:hover {
@@ -239,7 +263,7 @@ div[class^="img-thumb"] img {
   margin: 60px auto;
 }
 
-main {
+.main {
   width: 67%;
   float: left;
 }
@@ -278,7 +302,7 @@ main {
 }
 
 .editor-pick {
-  margin-top: -100px;
+  margin-top: -150px;
 }
 
 @media (max-width: 1000px) {
@@ -320,7 +344,7 @@ main {
   aside {
     display: none;
   }
-  main {
+  .main {
     width: 95%;
   }
   .show_user {
@@ -408,6 +432,7 @@ footer {
   padding-top: 10px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .column:last-child {
