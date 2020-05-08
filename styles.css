@@ -21,7 +21,7 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
-  font-family: 'Roboto', sans serif;
+  font-family: "Roboto", sans serif;
 }
 
 .top__left a:hover {
@@ -40,7 +40,7 @@
   border-radius: 3px;
   border: none;
   font-weight: 800;
-  font-family: 'Roboto', sans serif;
+  font-family: "Roboto", sans serif;
   text-transform: uppercase;
 }
 
@@ -73,7 +73,8 @@
   width: 100%;
 }
 
-figcaption, .video-desc {
+figcaption,
+.video-desc {
   color: #888;
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
@@ -84,8 +85,8 @@ figcaption, .video-desc {
   line-height: 18px;
 }
 
-
-figcaption span, .video-desc span{
+figcaption span,
+.video-desc span {
   font-size: 13px;
 }
 
@@ -150,7 +151,7 @@ article > p > a {
   border: 1px solid #eee;
 }
 
-.icons > li:nth-child(n+5) > a {
+.icons > li:nth-child(n + 5) > a {
   border: none;
   background-color: white;
   font-size: 20px;
@@ -302,7 +303,7 @@ div[class^="img-thumb"] img {
 }
 
 .editor-pick {
-  margin-top: -150px;
+  margin-top: -100px;
 }
 
 @media (max-width: 1000px) {
@@ -352,6 +353,9 @@ div[class^="img-thumb"] img {
   }
   .top__right .btn {
     display: none;
+  }
+  .editor-pick {
+    margin-top: 10px;
   }
 }
 
@@ -432,7 +436,7 @@ footer {
   padding-top: 10px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .column:last-child {
