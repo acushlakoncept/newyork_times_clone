@@ -135,64 +135,50 @@ div[class^="img-thumb"] {
   position: relative;
 }
 
-/* .img-thumb-1 {
-  background-image: url(images/inflation-720.png);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: 100%;
-} */
-.img-thumb-1 img {
+div[class^="img-thumb"] img {
   position: absolute;
   width: 800px;
-  left: 0;
+}
+
+.img-thumb-1 img,
+.img-thumb-2 img,
+.img-thumb-3 img,
+.img-thumb-4 img {
   top: 0;
+}
+
+.img-thumb-1 img {
+  left: 0;
 }
 
 .img-thumb-2 img {
-  position: absolute;
-  width: 800px;
   left: -200px;
-  top: 0;
 }
 
 .img-thumb-3 img {
-  position: absolute;
-  width: 800px;
   left: -400px;
-  top: 0;
 }
 
 .img-thumb-4 img {
-  position: absolute;
-  width: 800px;
   right: 0;
-  top: 0;
 }
 
 .img-thumb-5 img {
-  position: absolute;
-  width: 800px;
   left: 0;
   top: -350px;
 }
 
 .img-thumb-6 img {
-  position: absolute;
-  width: 800px;
   left: -200px;
   top: -350px;
 }
 
 .img-thumb-7 img {
-  position: absolute;
-  width: 800px;
   left: -400px;
   top: -350px;
 }
 
 .img-thumb-8 img {
-  position: absolute;
-  width: 800px;
   right: 0;
   top: -350px;
 }
