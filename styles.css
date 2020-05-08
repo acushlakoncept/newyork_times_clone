@@ -31,7 +31,7 @@ article p a {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
-  font-family: "Roboto", "sans serif";
+  font-family: Roboto, 'sans serif';
 }
 
 .icons li a {
@@ -93,7 +93,7 @@ article p a {
   border-radius: 3px;
   border: none;
   font-weight: 800;
-  font-family: "Roboto", "sans serif";
+  font-family: Roboto, 'sans serif';
   text-transform: uppercase;
 }
 
