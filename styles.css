@@ -163,22 +163,25 @@ div[class^="img-thumb"] img {
   right: 0;
 }
 
+.img-thumb-5 img,
+.img-thumb-6 img,
+.img-thumb-7 img,
+.img-thumb-8 img {
+  top: -350px;
+}
+
 .img-thumb-5 img {
   left: 0;
-  top: -350px;
 }
 
 .img-thumb-6 img {
   left: -200px;
-  top: -350px;
 }
 
 .img-thumb-7 img {
   left: -400px;
-  top: -350px;
 }
 
 .img-thumb-8 img {
   right: 0;
-  top: -350px;
 }
