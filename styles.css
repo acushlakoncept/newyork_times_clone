@@ -226,40 +226,72 @@ main {
   float: left;
 }
 
-aside {
-  width: 30%;
-  float: right;
-}
-
 .article-preview h3 {
   border-top: 1px solid #000;
   padding-top: 25px;
   margin-bottom: 15px;
 }
 
-.article-preview__card,
-.article-preview__card > figure > img {
-  width: 280px;
+.article-preview__card {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-gap: 15px;
+}
+
+.article-preview__card-item > figure > img {
+  width: 100%;
+}
+
+.article-preview__card-item figcaption {
+  font-size: 10px;
+  margin-right: 0;
+  text-align: right;
+}
+
+.article-preview__card-item h2 {
+  font-size: 17px;
+  margin: 10px 0;
+  line-height: 18px;
+}
+
+.article-preview__card-item p {
+  font-size: 12px;
+  color: #666;
+}
+
+.editor-pick {
+  margin-top: -50px;
+}
+
+/* ASIDE STYLES */
+aside {
+  width: 30%;
+  float: right;
 }
 
 .aside__list li {
   margin-bottom: 13px;
   border-top: 1px solid #ccc;
   padding-top: 13px;
+  line-height: 24px;
 }
 
 .aside__list li a {
   display: block;
-  color: #000;
+
   font-size: 18px;
   width: 80%;
-  transition: all 0.5s;
-}
-
-.aside__list li a:hover {
-  color: #ccc;
 }
 
 .clear {
   clear: both;
+}
+
+.link {
+  color: #000;
+  transition: all 0.3s;
+}
+
+.link:hover {
+  color: #888;
 }
