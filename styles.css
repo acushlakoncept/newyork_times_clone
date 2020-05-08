@@ -203,3 +203,15 @@ div[class^="img-thumb"] img {
   width: 600px;
   height: 319px;
 }
+
+.article-footer > p {
+  font-size: 11px;
+  line-height: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.article-footer > p > a {
+  color: #666;
+  text-decoration: underline;
+}
