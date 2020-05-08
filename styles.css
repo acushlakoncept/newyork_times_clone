@@ -74,6 +74,19 @@ article > h4 {
   font-size: 14px;
 }
 
+article > h3 {
+  margin: 10px 0;
+}
+
+article > p {
+  margin: 15px 0;
+}
+
+article > p > a{
+  color: #32689B;
+  text-decoration: underline;
+}
+
 .social {
   display: flex;
   justify-content: space-between;
@@ -184,4 +197,9 @@ div[class^="img-thumb"] img {
 
 .img-thumb-8 img {
   right: 0;
+}
+
+.video {
+  width: 600px;
+  height: 319px;
 }
