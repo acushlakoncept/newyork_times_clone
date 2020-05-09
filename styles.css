@@ -78,7 +78,16 @@ article p a {
 .icons li:nth-child(n + 5) a {
   border: none;
   background-color: white;
-  font-size: 20px;
+  font-size: 25px;
+  position: relative;
+}
+
+i.far.fa-comment-alt::after {
+  content: "654";
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
 }
 
 .logo {
