@@ -509,7 +509,7 @@ footer {
   width: 100%;
   text-align: center;
   height: 50px;
-  padding: 15px 80px 40px 80px; 
+  padding: 15px 80px 40px 80px;
   border-top: 1px solid #000;
   position: fixed;
   bottom: 0;
@@ -525,15 +525,14 @@ footer {
 }
 
 .fixed-bottom__right {
-  float:right;
-  display: inline-block;
+  float: right;
   margin-bottom: 50px;
 }
 
 .fixed-bottom__right p {
   font-weight: bold;
   font-size: 12px;
-} 
+}
 
 .fixed-bottom__right a {
   color: #111;
