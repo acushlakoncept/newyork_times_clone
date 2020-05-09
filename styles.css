@@ -34,6 +34,12 @@ article p a {
   font-family: "Roboto", sans-serif;
 }
 
+.fixed-bottom__right a {
+  color: #111;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
 .icons li a {
   display: inline-block;
   width: 26px;
@@ -541,10 +547,4 @@ footer {
 .fixed-bottom__right p {
   font-weight: bold;
   font-size: 12px;
-}
-
-.fixed-bottom__right a {
-  color: #111;
-  margin-left: 20px;
-  font-size: 15px;
 }
